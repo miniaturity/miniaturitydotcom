@@ -46,6 +46,8 @@
         height: 40px;
         width: var(--width);
 
+        filter: brightness(max(1, calc(var(--i) * 0.05)));
+
         --dist-px: calc(var(--dist) * 1px);
 
         --max-out: 350;

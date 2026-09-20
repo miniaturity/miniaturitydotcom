@@ -59,5 +59,8 @@
         display: flex;
         flex-direction: row;
         align-items: center;
+
+        pointer-events: none;
+        z-index: -1;
     }
 </style>
