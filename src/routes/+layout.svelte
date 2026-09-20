@@ -9,3 +9,9 @@
 </svelte:head>
 
 {@render children()}
+
+<style lang="scss">
+	:root {
+		--primary: #3F46EF;
+	}
+</style>

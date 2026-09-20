@@ -1,2 +1,16 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script lang="ts">
+    import MouseWave from "$lib/components/mw/mouseWave.svelte";
+</script>
+
+<div class="page">
+
+</div>
+
+<div class="wave">
+    <MouseWave flipped={false}/>
+    <MouseWave flipped />
+</div>
+
+<style lang="scss">
+
+</style>
