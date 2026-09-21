@@ -12,7 +12,7 @@
     const { track } = createDistanceTracker();
     const clock = useWaveClock(); // shared across both MouseWave instances -> stays in sync
 
-    let desyncDelay = $derived(!flipped ? Math.random() * 2 : 0);
+    let desyncDelay = $derived(!flipped ? Math.max(0.2, Math.random() * 2) : 0);
 
     let mousePos = $state({ x: 0, y: 0 });
     
