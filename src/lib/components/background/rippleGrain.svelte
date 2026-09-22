@@ -227,5 +227,6 @@ void main(){ vec4 o=vec4(0.0); mainImage(o,gl_FragCoord.xy); fragColor=o; }`;
         height: 100%;
         width: 100%;
         overflow: hidden;
+        z-index: -9;
     }
 </style>

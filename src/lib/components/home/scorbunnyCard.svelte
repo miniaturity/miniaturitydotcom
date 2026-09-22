@@ -8,6 +8,7 @@
         class="pc-wrapper"
         glareIntensity={1}
         scaleFactor={1.1}
+        shadow
     >
         <img src={scorbunny} alt=""/>
         <div class="card-shine"></div>

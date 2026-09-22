@@ -1,6 +1,6 @@
 <script lang="ts">
    import MouseWave from "$lib/components/mw/mouseWave.svelte";
-    import PokemonCard from "$lib/components/home/pokemonCard.svelte";
+    import PokemonCard from "$lib/components/home/scorbunnyCard.svelte";
     import { draggable } from "@neodrag/svelte";
     import CircleMatrix from "$lib/components/foreground/circleMatrix.svelte";
     import { onMount } from "svelte";
